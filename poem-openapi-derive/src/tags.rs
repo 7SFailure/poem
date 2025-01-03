@@ -5,8 +5,7 @@ use darling::{
 };
 use proc_macro2::{Ident, TokenStream};
 use quote::quote;
-use syn::{ext::IdentExt, Attribute, DeriveInput, Error};
-
+use syn::{ext::IdentExt, Attribute, DeriveInput, Error}
 use crate::{
     common_args::{apply_rename_rule_variant, ExternalDocument, RenameRule},
     error::GeneratorResult,
